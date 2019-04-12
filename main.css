@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Permanent+Marker');
+
+
+    /* font-family: 'Crete Round', serif;
+
+    font-family: 'Permanent Marker', cursive;*/
+p{
+    font-size:16px;
+}
+.centimg1{
+    position:absolute;
+    top:150px;
+    left:290px;
+}
+.centimg2{
+    position:absolute;
+    top:170px;
+    left:110px;
+}
+
+.title{
+    position:absolute;
+    background:#D5DE59;
+    top:10px;
+    left:25%;
+    padding-left:20px;
+    text-align:left;
+    width:890px;
+    height:80px;
+    font-family: 'Permanent Marker', cursive;
+}
+.title1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.intro-background{
+position:absolute;
+    top:200px;
+    left:200px;
+    font-size:40px;
+ font-family: 'Crete Round', serif;   
+}
+
+.main{
+   position:relative;
+    top:90px;
+    left:24.8%;
+    width:900px;
+    height:850px;
+    background: white;
+    padding:5px;
+}
+.conttitle{
+    position:absolute;
+    top:5px;
+   font-family: 'Permanent Marker', cursive; 
+}
+
+#form5{
+  background:#D5DE59;
+position:absolute;
+    left:10%;
+    top:50px;
+    padding:2em;
+    width:500px;
+    height:550px;
+}
+
+.home{
+    width:890px;
+    position:absolute;
+    overflow:hidden;
+    transition: all 2s;
+    background: white;
+    font-family: 'Crete Round', serif;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    background:url(images/res05.png);
+}
+.backgroundfilter{
+position:absolute;
+    width:900px;
+    height:600px;
+    top:28px;
+  background:white;
+    opacity:0.5;
+}
+
+#sel1{
+    top:10px;
+    left:10px;
+    height:25px;
+    cursor:pointer;
+}
+
+.homelabel1{
+    color:black;
+    position:absolute;
+    font-size:20px;
+    top:-12px;
+    left:0px;
+    padding-left:20px;
+    width:1000px;
+    transition:1s;
+    background:white;
+    font-family: 'Crete Round', serif;
+}
+
+.homelabel1:hover{
+    color:darkgrey;
+}
+
+.homedesc1{
+    position:absolute;
+    top:40px;
+    left:30px;
+    width:150px;
+    height:510px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.homedesc2{
+    position:absolute;
+    top:450px;
+    left:230px;
+    width:600px;
+    height:120px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.image1{
+    position:absolute;
+    top:25px;
+    opacity:0.5;
+}
+
+
+.about{
+    position:absolute;
+    width:890px;
+    overflow:hidden;
+    transition: all 2s;
+    background: white;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    font-family: 'Crete Round', serif;
+    background:url(images/comm02.png);
+}
+
+
+#sel2{
+  top:40px;
+    left:10px;
+    height:25px;
+    cursor:pointer;
+}
+
+.aboutlabel1{
+    position:absolute;
+    font-size:20px;
+    top:-12px;
+    left:0px;
+    padding-left:20px;
+    width:1000px;
+    transition:1s;
+    background:white;
+    font-family: 'Crete Round', serif;
+}
+
+.aboutlabel1:hover{
+    color:darkgrey;
+}
+.aboutdesc1{
+   position:absolute;
+   top:30px;
+    left:30px;
+    width:800px;
+    height:90px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.aboutdesc2{
+    position:absolute;
+    top:140px;
+    left:630px;
+    width:200px;
+    height:420px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.image2{
+    opacity:0.5;
+    position:absolute;
+    top:25px
+}
+
+.resident{
+    position:absolute;
+    left:10px;
+    width:890px;
+    overflow:hidden;
+    transition: all 2s;
+    background: white;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    font-family: 'Crete Round', serif;
+    background:url(images/res04.png);
+}
+
+
+#sel3{
+   top:70px;
+   height:25px;
+    cursor:pointer;
+}
+
+.residentlabel1{
+    position:absolute;
+    font-size:20px;
+    top:-12px;
+    left:0px;
+    padding-left:20px;
+    width:1000px;
+    transition:1s;
+    background:white;
+    font-family: 'Crete Round', serif;
+}
+
+.residentlabel1:hover{
+    color:darkgrey;
+}
+.residentdesc{
+    position:absolute;
+    top:460px;
+    left:50px;
+    width:790px;
+    height:110px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.image3{
+    opacity:0.5;
+    position:absolute;
+    top:25px
+}
+
+.commercial{
+   position:absolute;
+    left:10px;
+    width:890px;
+    overflow:hidden;
+    transition: all 2s;
+    background: white;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    font-family: 'Crete Round', serif;
+    background:url(images/comm07.png);
+}
+
+
+#sel4{
+  top:100px;
+  height:25px;
+  cursor:pointer;
+}
+
+.commlabel1{
+    position:absolute;
+    font-size:20px;
+    top:-12px;
+    left:0px;
+    padding-left:20px;
+    width:1000px;
+    transition:1s;
+    background:white;
+    font-family: 'Crete Round', serif;
+}
+
+.commlabel1:hover{
+    color:darkgrey;
+}
+.commdesc{
+    position:absolute;
+    top:470px;
+    left:70px;
+    width:750px;
+    height:90px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.image4{
+    opacity:0.5;
+    position:absolute;
+    top:25px
+}
+
+.service{
+    position:absolute;
+    left:10px;
+    width:890px;
+    overflow:hidden;
+    transition: all 2s;
+    background: white;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    font-family: 'Crete Round', serif;
+    background:url(images/comm03.png);
+}
+
+
+#sel5{
+ top:130px; 
+ height:25px;
+ cursor:pointer;
+}
+
+.servicelabel1{
+    position:absolute;
+    font-size:20px;
+    top:-12px;
+    left:0px;
+    padding-left:20px;
+    width:1000px;
+    transition:1s;
+    background:white;
+    font-family: 'Crete Round', serif;
+}
+
+.servicelabel1:hover{
+    color:darkgrey;
+}
+
+.servicedesc{
+    position:absolute;
+    top:470px;
+    left:70px;
+    width:750px;
+    height:90px;
+    background:#D5DE59;
+    padding:1em;
+    font-family: 'Crete Round', serif;
+}
+
+.image5{
+   opacity:0.5;
+    position:absolute;
+    top:25px 
+}
+
+.contact{
+    position:absolute;
+    left:10px;
+    width:890px;
+    overflow:hidden;
+    transition: all 2s;
+    background: white;
+    border-top:1px solid black;
+    border-bottom:1px solid black; 
+    font-family: 'Crete Round', serif;
+    background:url(images/comm06.png);
+}
+
+
+#sel6{
+   top:160px;
+   height:25px;
+   cursor:pointer;
+}
+
+.contlabel1{
+   position:absolute;
+    font-size:20px;
+    top:-12px;
+    left:0px;
+    padding-left:20px;
+    width:1000px;
+    transition:1s;
+    background:white;
+    font-family: 'Crete Round', serif;
+}
+
+.contlabel1:hover{
+    color:darkgrey;
+}
+.contdesc{
+  position:absolute;
+    top:50px;
+    left:50px;
+    width:750px;
+    height:90px;
+    background:#D5DE59;
+    padding:1em; 
+    font-family: 'Crete Round', serif;
+}
+
+#contbutton{
+    position:absolute;
+    top:400px;
+    left:340px;
+    width:200px;
+    height:100px;
+    font-size:24px;
+    background:#D5DE59;
+}
+
+.image6{
+    opacity:0.5;
+    position:absolute;
+    top:25px 
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+#container1{
+    position:absolute;
+    background:black;
+    top:40px;
+    left:85px;
+}
+#slideshow1{
+    position:absolute;
+    left:145px;
+    width:600px;
+    height:500px;
+    padding:50px;
+}
+#container2{
+    position:absolute;
+    background:black;
+    top:10px;
+    left:105px;
+}
+#slideshow2{
+    position:absolute;
+    left:145px;
+    width:600px;
+    height:500px;
+    padding:50px;
+}
+
+#map{
+    position:absolute;
+    left:180px;
+    top:60px;
+    width:600px;
+    height:500px;
+}
+.contdescrip{
+    position:absolute;
+    top:80px;
+    font-family: 'Crete Round', serif;
+    width:500px;
+    left:30px;
+}
+
+.field1{
+   position:absolute;
+    top:140px;
+    left:30px;
+  font-family: 'Crete Round', serif; 
+}
+
+.field2{
+   position:absolute;
+    top:190px;
+    left:30px;
+  font-family: 'Crete Round', serif;  
+}
+
+.field3{
+  position:absolute;
+    top:240px;
+    left:30px;
+  font-family: 'Crete Round', serif;  
+}
+.field4{
+   position:absolute;
+    top:290px;
+    left:30px;
+  font-family: 'Crete Round', serif;  
+}
+.field5{
+    position:absolute;
+    top:350px;
+    left:30px;
+  font-family: 'Crete Round', serif; 
+}
+.submit{
+   position:absolute;
+    top:270px;
+    left:15px;
+    height:50px;
+    background:violet;
+  font-family: 'Crete Round', serif; 
+}
+.hidden{
+    width:0px;
+    height:0px;
+    overflow:hidden;
+}
+#title1{
+    font-size:20px;
+    left:30px;
+    position:absolute;
+    top:115px;
+    font-family: 'Crete Round', serif; 
+}
